@@ -1,0 +1,93 @@
+#vertical-menu {
+    width: 271px;
+    height:100%;
+    margin-top: -1041px; 
+    overflow-y: auto;
+    background-color: aquamarine;
+    position: fixed;
+}
+
+
+
+#hindilyrics{
+    position: inherit;
+    margin-left: 271px;
+    /* border: 3px solid red; */
+    width: 38vw;
+    display: block;
+    text-align: center;
+    background-color: #e4e1dd;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#englishlyrics{
+    position: inherit;
+    margin-left: 62vw;
+    /* border: 3px solid black; */
+    display: block;
+    text-align: center;
+    margin-top: -1017px;
+    width: 38vw;
+    background-color: #e4e1dd;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 65px;
+
+}
+@media only screen and (max-width: 800px){
+
+#englishlyrics{
+    margin-left: 53vw;
+    width: 46vw;
+}
+
+
+#hindilyrics{
+    width: 50vw;
+    margin-left: -10px;
+    
+}
+
+}
+
+@media only screen and (max-width: 540px){
+    #hindilyrics {
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+    #englishlyrics {
+        margin-left: 0vw;
+        width: 100vw;
+        margin-top: 19px;
+    }
+    .dropdown-content {
+        min-width: 85px;
+    }
+    #vertical-menu{
+        margin-top: -2050px;
+        width: 200px;
+
+    }
+}
+@media only screen and (max-width: 270px){
+    #vertical-menu {
+        margin-top: -2206px;
+        width: 149px;
+    }
+
+    #vertical-menu ul li a {
+        font-size: 13px;
+    }
+    #inner {
+        width: 139px;
+    }
+}
+
+/* @media only screen and (max-width: 800px){
+    #vertical-menu{
+        display: none;
+    }
+} */

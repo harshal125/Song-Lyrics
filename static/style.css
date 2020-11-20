@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+
+.fa {
+    padding: 15px;
+    position: relative;
+    right: 115px;
+    top: 7px;
+    font-size: 23px;
+    width: 48px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 5px;
+    margin-left: 5px;
+}
+
+.fa:hover{
+    border: 2px solid white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#navbar {
+    /* border: 3px solid red; */
+    background-color: rgb(65, 61, 61);
+    position: sticky;
+    top: 0px;
+}
+
+#bar {
+    margin-top: 15px;
+    height: 40px;
+    background-color: black;
+}
+
+#bar ul li a {
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+#bar ul li:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#bar ul {
+    list-style: none;
+    display: flex;
+    padding: 5px 30px;
+}
+
+#bar ul li {
+    padding: 2px 20px;
+    font-size: larger;
+}
+
+#myInput {
+    position: relative;
+    top: 20px;
+    left: -140px;
+    width: 45vw;
+    height: 40px;
+    border-radius: 14px;
+    border: 3px solid black;
+}
+
+.both {
+    display: flex;
+    justify-content: end;
+}
+
+#logo {
+    position: relative;
+    top: 15px;
+    left: 41px;
+    font-size: 28px;
+    margin-right: 216px;
+    color: rgb(228 95 5);
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.both img {
+    left: 0px;
+    position: relative;
+    top: 28px;
+    left: 40px;
+    margin-right: 15px;
+    padding: 0px 10px;
+    color: white;
+}
+
+.box {
+    width: auto;
+    height: 3000px;
+    /* border: 3px solid red; */
+}
+
+h3 {
+    text-shadow: 5px 3px black;
+}
+
+#full{
+    width: auto;
+    height: 1500px;
+    margin-left: 60px;
+    position: inherit;
+    margin-top: 63px;
+    
+}
+
+
+
+#vertical-menu{
+    width: 17rem;
+    height: 100%;
+    margin-top: -2000px; 
+    overflow-y: auto;
+    background-color: aquamarine;
+    display: inline-block;
+    position: fixed;
+    transition: 0.8s;
+}
+
+#vertical-menu ul{
+font-size: 25px;
+
+}
+
+#vertical-menu ul li{
+    font-size: 20px;
+    padding: 9px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: groove;
+}
+
+#vertical-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#vertical-menu ul li a:hover{
+   
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#half{
+    border: 2px solid red;
+    width: 100%;
+    height: 10px;
+}
+
+
+
+
+.btn1{
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/shreya.png');
+}
+.btn1:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.btn2{
+    
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/atif.png');
+}
+.btn2:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.btn3{
+    
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/neha.png');
+}
+.btn3:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.btn4{
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/darshan.png');
+}
+.btn4:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.btn5{
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/arjit.png');
+}
+.btn5:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.btn6{
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/AR.png');
+}
+.btn6:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+
+.btn7{
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/gururandhava.png');
+}
+.btn7:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.btn8{
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/hony.png');
+}
+.btn8:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+.btn9{
+    width: 230px;
+    height: 230px;
+    margin: 50px 69px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: center / cover no-repeat url('/static/img/tulasikumar.png');
+}
+.btn9:hover{
+    width: 235px;
+    height: 235px;
+    border-radius: 6px;
+    border: 3px solid black;
+}
+
+
+h5{
+    margin-top: 248px;
+    font-size: 20px;
+    color: black;
+}
+h5:hover{
+    color: white;
+    background-color:black;
+    border-radius: 6px;
+    font-size: 23px;
+}
+
+.harshal{
+    width: 350px;
+    display: contents;
+}
+
+.box{
+    width: auto;
+    height: 2000px;
+    margin-left: 271px;
+    padding-top: 1px;
+    background-color: #e6e2e2;
+
+}
+.name {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin: 20px 20px;
+    margin-left: 95px;
+    padding-top: 22px;
+    margin-top: 48px;
+    font-size: 35px;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 2px 3px black;
+}
+.footer{
+    width: 60%;
+    height: 10%;
+    background-color: black;
+    border: 2px solid white;
+}
+
+#inner{
+    display: none;
+}
+.barger{
+    display: none;
+}
+
+/* .opacity{
+   opacity: 0;
+ } */
+
+
+/* dropdown navbar */
+
+.navbar {
+
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 13px 17px;
+    padding-top: 35px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 1440px){
+
+.box{
+    margin-left: 190px;
+}
+}
+
+
+@media only screen and (max-width: 1360px){
+    .btnall {
+        width: 197px;
+        height: 219px;
+        margin: 40px 15px;
+        cursor: pointer;
+
+}
+}
+    
+@media only screen and (max-width: 1360px){
+    .box {
+        margin-left: 218px;
+       
+}
+.btnall {
+    width: 197px;
+    height: 219px;
+    margin: 40px 30px;
+    cursor: pointer;
+
+}
+}
+@media only screen and (max-width: 800px){
+    .box {
+        margin-left: 0px;
+    }
+    /* #vertical-menu{
+        display: none;
+    } */
+    #full{
+        margin-left: 87px;
+    }
+    #logo {
+        top: 3px;
+        left: 102px;
+        font-size: 24px;
+    }
+    .fa {
+        padding: 15px;
+        position: relative;
+        right: 0px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        width: 34px;
+        height: 34px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0px 10px;
+        margin-left: 5px;
+        top: 8px;
+    
+    }
+    #myInput{
+        display: none;
+        top: 10px;
+    left: -125px;
+    }
+    .both img {
+        position: absolute;
+    left: 20px;
+    top: 13px;
+    }
+    
+    #bar ul {
+        margin-left: 47px;
+        list-style: none;
+        display: flex;
+        padding: 5px 0px;
+        font-size: 15px;
+        width: fit-content;
+        margin-top: -32px;
+    }
+    .line {
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        background-color: white;
+    }
+    .barger {
+        display: block;
+        padding: 0px;
+        width: 43px;
+        background-color: black;
+        height: 32px;
+        border: 1px solid white;
+        border-radius: 8px;
+        text-decoration: none;
+        margin: 0px -8px;
+        margin-left: 5px;
+        position: relative;
+        top: 4px;
+        cursor: pointer;
+        transition: 3s;
+    }
+    #inner {
+        display: block;
+        padding: 3px 28px;
+        margin: 3px 0px;
+        background-color: white;
+        border: 2px sloid black;
+        border-radius: 8px;
+        border: 2 px solid black;
+    }
+    
+    .resp-var-nav{
+        display: block;
+    }
+    .opacity{
+        display: none;
+     }
+     #vertical-menu{
+         display: none;
+     }
+}
+
+@media only screen and (max-width: 655px){
+    .navbar {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: end;
+        background-color: black;
+        height: 40px;
+        margin-top: 9px;
+    }
+
+   
+    #bar {
+        display: none;
+    }
+
+    .bargerSecond{
+        display: block;
+        padding: 0px;
+        width: 43px;
+        background-color: black;
+        height: 32px;
+        border: 1px solid white;
+        border-radius: 8px;
+        text-decoration: none;
+        margin: 0px -8px;
+        margin-left: 5px;
+        position: relative;
+        top: 4px;
+        cursor: pointer;
+        transition: 3s;
+    }
+    .fa{
+        display: none;
+    }
+    .c {
+        background-color: white;
+        height: 2px;
+        width: 3px;
+        margin: 4px;
+        border-radius: 46px;
+        position: relative;
+        left: -13px;
+        top: -19px;
+    }
+    #logo {
+        top: 3px;
+        left: 99px;
+        font-size: 18px;
+    }
+    .line {
+        width: 24px;
+        height: 3px;
+        margin: 4px;
+        background-color: white;
+    }
+    .bargerSecond{
+        width: 35px;
+        height: 32px;
+        top: 0px;
+    }
+    .btnall {
+        width: 151px;
+        height: 232px;
+        margin: 55px 15px;
+        cursor: pointer;
+    }
+    .box {
+        margin-left: -88px;
+    }
+
+    
+}
+    @media only screen and (max-width: 540px){
+        .box {
+            margin-left: -84px;
+        }
+        .btnall {
+            width: 151px;
+            height: 232px;
+            margin: 55px 30px;
+            cursor: pointer;
+        }
+        #vertical-menu{
+            width: 200px;
+        }
+        #inner{
+            width: 198px;
+        }
+    }
+
+    @media only screen and (max-width: 430px){
+        .btnall {
+            width: 104px;
+            height: 120px;
+            margin: 53px 24px;
+            cursor: pointer;
+        }
+        h5 {
+            margin-top: 134px;
+            font-size: 20px;
+            color: black;
+        }
+    }
+
+    @media only screen and (max-width: 305px){
+        .both img {
+            position: absolute;
+            left: 15px;
+            top: 4px;
+        }
+        #logo {
+            top: 3px;
+            left: 99px;
+            font-size: 13px;
+        }
+        .navbar a {
+            float: left;
+            font-size: 14px;
+            color: white;
+            text-align: center;
+            padding: 10px 13px;
+            text-decoration: none;
+        }
+        #full {
+            width: auto;
+            height: 1500px;
+            margin-left: 60px;
+            position: inherit;
+            margin-top: 43px;
+        }
+        .box {
+            margin-left: -16px;
+        }
+    }
+    

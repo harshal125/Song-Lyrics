@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    position: inherit;
+    padding-top: 42px;
+    color: rgb(228 95 5);
+
+}
+
+.myinput{
+    width: 50%;
+    padding: 7px;
+    margin: 10px;
+    background-color: #e4acac52;
+    border-radius: 6px;
+    font-size: 16px;
+    color: black;
+    position: inherit;
+    top: 120px;
+    left: auto;
+}
+
+.myform{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  outline: none;
+  margin-top: 85px;
+}
+
+.btn{
+    padding: 8px;
+    margin: 15px;
+    width: 100px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    position: inherit;
+    top: 118px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+ .container{
+     min-height: 150vh;
+ }
+
+
+
+
+
+ .vertical-menu {
+   width: 271px;
+    height: 668px;
+    margin-top: -1204px;
+    overflow-y: auto;
+    background-color: aquamarine;
+   
+    display: none;
+    position: fixed;
+}
